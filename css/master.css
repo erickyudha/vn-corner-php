@@ -1,0 +1,436 @@
+#navbar-container {
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+spoiler {
+  background-color: #000;
+  color: #000;
+}
+spoiler:hover {
+  color: #212529;
+  background-color: transparent;
+}
+
+.navbar {
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  background-color: #fff;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.rec1 img {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  top: 22vh;
+  z-index: 0;
+  user-select: none;
+}
+#rec-text {
+  color: #3db1ff;
+  position: absolute;
+  left: 3vw;
+  top: 17vh;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+#rec-title {
+  position: absolute;
+  top: 24vh;
+  right: 4.5vw;
+  z-index: 1;
+  font-weight: 600;
+  color: #83cafa;
+  font-size: 1.6em;
+  padding: 3px 10px 3px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#rec-title-jp {
+  z-index: 1;
+  position: absolute;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #dcc831;
+  font-size: 1.2em;
+  top: 31vh;
+  right: 4.5vw;
+  padding: 3px 10px 3px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#rec1-line {
+  height: 1px;
+  background-color: #3db1ff;
+  width: 35vw;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 16vh;
+}
+#rec-vndb-link {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-size: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 10px 3px 10px;
+  right: 1vw;
+  bottom: 18vh;
+}
+
+.fp-custom-arrow {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.fp-custom-arrow svg {
+  width: 32px;
+  height: auto;
+}
+#s1-1-right {
+  position: absolute;
+  bottom: 9vh;
+  right: 2vw;
+  font-size: 1.4em;
+}
+
+#s1-2-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  user-select: none;
+}
+#s1-2-content {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.618);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 50vw;
+  padding: 30px;
+  user-select: text;
+}
+#s1-2-title {
+  top: 10vh;
+  left: 3vw;
+  z-index: 2;
+  font-weight: 600;
+  color: #83cafa;
+  font-size: 1.6em;
+  padding: 0;
+  margin: 0;
+}
+#s1-2-title-jp {
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #dcc831;
+  font-size: 1.2em;
+}
+#synopsis-text {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  padding: 0;
+  margin: 8px 0 4px 0;
+}
+#synopsis-wrapper {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.78em;
+  padding: 0;
+  margin: 0;
+  overflow-wrap: break-word;
+  white-space: pre-line;
+}
+#synopsis-wrapper p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.95em;
+}
+#s1-2-right {
+  color: white;
+  font-size: 1.4em;
+}
+
+#s1-3-line {
+  user-select: none;
+  z-index: 0;
+}
+#s1-3-content {
+  z-index: 1;
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+#s1-3-main {
+  background-color: #53cef8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100vw;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -58%);
+}
+#s1-3-main iframe {
+  width: 80vh;
+  height: 45vh;
+  margin: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+#memory-text {
+  color: #53cef8;
+  position: absolute;
+  top: 14vh;
+  left: 10vw;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+#op-text {
+  color: #53cef8;
+  position: absolute;
+  right: 8vw;
+  bottom: 18vh;
+  font-weight: 800;
+  font-size: 3em;
+}
+#s1-3-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#discover-main {
+  height: 100vh;
+  padding: 8vh 4vw;
+}
+#discover-img-wrapper {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+#discover-img-wrapper img {
+  object-fit: cover;
+  width: 92vw;
+  height: 84vh;
+  z-index: 0;
+  user-select: none;
+}
+#discover-img-wrapper h1 {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+  font-size: 4em;
+}
+#s2-1-right {
+  z-index: 1;
+  position: absolute;
+  top: 43%;
+  right: 5%;
+}
+#s2-1-right svg {
+  width: 64px;
+  height: auto;
+}
+
+
+.box-wrapper {
+  z-index: 0;
+  position: relative;
+  height: 100vh;
+  user-select: none;
+}
+#gc-b {
+  position: absolute;
+  bottom: 8%;
+  left: 20%;
+  width: 18vw;
+} 
+#gc-lt {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  width: 22vw;
+}
+#triangle-lb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40vh;
+}
+#box-rb {
+  width: 35vw;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+.s2-vn-img {
+  position: absolute;
+  right: 70%;
+  top: 15%;
+  width: 20vw;
+}
+.disc-vn-info {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  width: 50%;
+  position: absolute;
+  left: 35%;
+  top: 9%;
+  align-items: start;
+  column-gap: 0;
+  row-gap: -1px;
+  user-select: text;
+}
+.disc-vn-header h1 {
+  text-align: right;
+  margin-right: 10px;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 1.4em;
+  color: #fff;
+}
+#disc-vn-info-synopsis-header {
+  margin-bottom: 100px;
+}
+.disc-vn-header {
+  margin: 0 20px; 
+  background-color: #53cef8;
+  border: solid #53cef8 3px;
+}
+.disc-vn-body {
+  font-size: 1.2em;
+  margin-top: 4px;
+}
+.disc-vn-synopsis {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 9px;
+  font-size: 0.75em;
+  white-space: pre-line;
+}
+#disc-original-title {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+.disc-vn-info h2:first-of-type {
+  font-weight: 800;
+}
+.vn-info-nav-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#msc-bg-cg {
+  position: absolute;
+  top: 12%;
+  right: 20%;
+  width: 30vw;
+}
+.music-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  width: 92vh;
+  height: 51.75vh;
+}
+#kanji-music {
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #7b54a6;
+  font-weight: 800;
+  position: absolute;
+  bottom: 20%;
+  left: 80px;
+  font-size: 4em;
+}
+#music-line {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  height: 10px;
+  width: 100vw;
+  background-color: #7b54a6;
+}
+#text-music {
+  position: absolute;
+  color: #7f629e;
+  font-weight: 800;
+  top: 78%;
+  left: 130px;
+  font-size: 4em;
+}
+.music-nav-btn {
+  position: absolute;
+  top: 82%;
+  right: 40px;
+}
+
+.quote-content {
+  display: grid;
+  grid-template-rows: 25% auto 10% 7% 10% 5%;
+  height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-items: center;
+  align-items: start;
+  user-select: text;
+}
+#quote-text {
+  font-size: 1.75em;
+  color: #af069d;
+  align-self: center;
+  text-align: center;
+}
+#from-text {
+  font-family: 'Dancing Script', cursive;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.8em;
+}
+#quote-vn-name {
+  font-weight: 800;
+  text-align: center;
+}
+#quote-content-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#login-form {
+  padding: 10px;
+}
+.login-input {
+  padding: 4px 10px;
+  margin-top: 1px;
+}
+#login-btn {
+  font-size: 0.8em;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.profile-menu a {
+  text-decoration: none;
+  color: rgba(0,0,0,.55);
+}
