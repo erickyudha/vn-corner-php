@@ -1,10 +1,10 @@
 # vn-corner-php
 Tugas UAS Pemrograman Web
 Nama	: Erick Yudha Pratama Sukku;
-NIM	: 201401046
+NIM	: 201401046;
 Ilmu Komputer / Kom B
 -------------------------------------------------------------------------
-PENTING!
+# PENTING!
 Apabila ada masalah saat koneksi website ke mysql, coba cek p/connection.php
 Port yang digunakan disini adalah 8000 yang bukan default dari XAMPP.
 Coba ubah $port menjadi default (3306) atau sesuai setting mysql anda di XAMPP.
