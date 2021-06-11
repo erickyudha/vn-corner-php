@@ -1,6 +1,6 @@
 # vn-corner-php
 Tugas UAS Pemrograman Web
-Nama	: Erick Yudha Pratama Sukku
+Nama	: Erick Yudha Pratama Sukku;
 NIM	: 201401046
 Ilmu Komputer / Kom B
 -------------------------------------------------------------------------
